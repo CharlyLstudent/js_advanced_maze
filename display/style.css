@@ -1,20 +1,20 @@
 #container {
+    /*background-image:url("/assets/sol-laby.jpg") ;*/
     margin-top: 25vh;
     margin-left: 40vw;
     display: grid;
     grid-template-columns: repeat(3,auto);
     width: fit-content;
     block-size: fit-content;
-    border: solid red 5px;
+    border: solid black 5px;
+
 }
 
 #container div {
+    box-sizing: border-box;
     width: 100px;
     height: 100px;
-    background-color: white;
-    border: solid red 2px;
+background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
 }
-
-/*width: 50%;*/
-/*display: grid;*/
-/*grid-template-columns: repeat(3,auto);*/
